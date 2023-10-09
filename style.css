@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 8px;
+    color: rgb(231, 96, 161);
+}
+
+h2 {
+    color: white;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 500px;
+    width: 100%;
+    padding: 16px;
+    background-color: rgb(245, 192, 217);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+input, button {
+    margin: 8px 0;
+    padding: 8px;
+    font-size: 18px;
+}
+
+button {
+    color: rgb(231, 96, 161);
+    font-weight: bold;
+    background-color: white;
+    border-color: rgb(231, 96, 161);
+    border-width: 3px;
+    border-style: solid;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(231, 96, 161);
+    cursor: pointer;
+}
+
+.erro {
+    color: red;
+}
+
+.sucesso {
+    color: rgb(0, 155, 0);
+}
+
+.erro, .sucesso {
+    margin: 8px 0 16px 0;
+    font-size: 16px;
+    display: none;
+}
