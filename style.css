@@ -1,0 +1,9 @@
+body {
+    margin: 36px auto;
+    width: 600px;
+}
+
+.col label,
+.col button {
+    margin: 16px 0;
+}
