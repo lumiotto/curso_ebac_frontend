@@ -1,0 +1,35 @@
+.form {
+    background-color: var(--corSecundaria);
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.formTitulo {
+    color: var(--corPrincipal);
+    padding: 16px;
+    font-size: 32px;
+}
+
+.formItem {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.formItemInput {
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.formBotao {
+    width: 30%;
+    padding: 16px;
+    background-color: var(--corPrincipal);
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--corSecundaria);
+    cursor: pointer;
+    margin: 8px 0;
+}
